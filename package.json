@@ -1,0 +1,39 @@
+{
+  "name": "Mean-boilerplate_for_BIM",
+  "description": "A boilerplate application for node, express, mongoose and Angular",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jussi Hallila",
+    "email": "jussi@hallila.com"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jasmine-node-karma \\test"
+  },
+  "dependencies": {
+    "express": "latest",
+    "express-namespace": "latest",
+    "mongoose": "latest",
+    "mongoose-user": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "connect-mongo": "latest",
+    "connect-flash": "latest",
+    "view-helpers": "latest",
+    "jade": "latest",
+    "async": "latest",
+    "forever": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "jasmine-node-karma":"latest"
+  },
+  "keywords": [
+    "mvc",
+    "boilerplate"
+  ]
+}

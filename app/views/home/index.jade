@@ -1,0 +1,15 @@
+extends ../layouts/default
+
+block main
+  h2= title
+
+block content
+  ul.menu
+      li
+          a(href='#/view1') view1
+        li
+          a(href='#/view2') view2
+      div(ng-view='ng-view')
+      div
+        | BI&M Mongo, Express, Angular, Node Boilerplate.
+        span(app-version='app-version')
