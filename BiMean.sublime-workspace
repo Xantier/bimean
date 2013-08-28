@@ -219,24 +219,72 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "public/config/karma.conf.js",
+			"settings":
+			{
+				"buffer_size": 458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/test/unit/index/controllersSpec.js",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/js/app.js",
+			"settings":
+			{
+				"buffer_size": 552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/js/index/indexcontroller.js",
+			"settings":
+			{
+				"buffer_size": 369,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 128.0,
 		"selected_items":
 		[
 			[
-				"Snippet: ",
-				"Snippet: ajax"
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
+				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ajax"
 			],
 			[
 				"git init",
@@ -259,10 +307,6 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"pack remo",
 				"Package Control: Remove Package"
 			],
@@ -283,11 +327,15 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 561.0
 	},
 	"console":
 	{
-		"height": 486.0
+		"height": 291.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
 	},
 	"distraction_free":
 	{
@@ -300,6 +348,19 @@
 	},
 	"file_history":
 	[
+		"/home/jussi/Development/bimean/public/test/unit/servicesSpec.js",
+		"/home/jussi/Development/bimean/public/app/js/services.js",
+		"/home/jussi/Development/bimean/public/test/unit/common/directivesSpec.js",
+		"/home/jussi/Development/bimean/public/test/unit/common/filtersSpec.js",
+		"/home/jussi/Development/bimean/public/test/e2e/runner.html",
+		"/home/jussi/Development/bimean/public/app/scripts/controllers/loginController.js",
+		"/home/jussi/Development/bimean/public/.travis.yml",
+		"/home/jussi/.config/sublime-text-3/Packages/SideBarEnhancements/CHANGELOG",
+		"/home/jussi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/jussi/Development/bimean/app/controllers/home.js",
+		"/home/jussi/Development/bimean/BiMean.sublime-project",
+		"/home/jussi/Development/bimean/Procfile",
+		"/home/jussi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Jussi/Documents/Development/mean-boilerplate/public/config/karma.conf.js",
 		"/C/Users/Jussi/Documents/Development/mean-boilerplate/public/test/unit/controllersSpec.js",
 		"/C/Users/Jussi/Documents/Development/mean-boilerplate/public/js/app.js",
@@ -414,20 +475,7 @@
 		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/views/includes/header.jade",
 		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/models/article.js",
 		"/C/Users/Jussi/Documents/Development/Boilerplate2/public/js/redips-script.js",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/public/js/lib/redips-drag-min.js",
-		"/C/Users/Jussi/Downloads/REDIPS_drag/example22/script.js",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/i18n/fi.json",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/public/js/lib/redips-drag-source.js",
-		"/C/Users/Jussi/Downloads/REDIPS_drag/header.js",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/views/500.jade",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/views/users/auth.jade",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/controllers/main.js",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/views/main/maincontent.jade",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/app/views/main/activities.jade",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/i18n/en.json",
-		"/C/Users/Jussi/Documents/Development/Boilerplate2/i18n/nl.json",
-		"/C/Users/Jussi/Downloads/REDIPS_drag/redips-drag-min.js",
-		"/C/Users/Jussi/AppData/Roaming/Sublime Text 2/Packages/User/ajaxsnippet.sublime-snippet"
+		"/C/Users/Jussi/Documents/Development/Boilerplate2/public/js/lib/redips-drag-min.js"
 	],
 	"find":
 	{
@@ -548,8 +596,295 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/config/karma.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/test/unit/index/controllersSpec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/app/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/app/js/index/indexcontroller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -592,6 +927,7 @@
 	{
 		"height": 180.0
 	},
+	"project": "BiMean.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -889,10 +1225,24 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 252.0,
-	"status_bar_visible": false
+	"side_bar_width": 330.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
 }

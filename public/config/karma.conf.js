@@ -10,7 +10,7 @@ module.exports = function(config) {
       'test/unit/**/*.js'
     ],
     autoWatch : true,
-    browsers : ['C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'],
+    browsers : ['Chrome', 'Firefox','PhantomJS'],
     junitReporter : {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
