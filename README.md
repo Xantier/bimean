@@ -3,7 +3,7 @@
 ## To set up:
 1. clone package
 2. Retrieve dependencies with npm: npm install
-3. run by typing 'npm start' in project folder. (Set Sublime text to macro the shit out of this when saving a file)
+3. run by typing 'npm start' in project folder. (Set Sublime text to macro this when saving a file)
 4. Surf to localhost:3000
 
 Oh, you need to have node installed naturally. And Mongo running.
@@ -11,7 +11,7 @@ Oh, you need to have node installed naturally. And Mongo running.
 ## Backend side:
 Add routes (`config/routes.js`), create models (`app/models/`), views (`app/views/`) and controllers (`app/controllers/`).
 Code should be self explanatory. 
-Basis for the project is madhums awesome node-express-mongoose repository. Mocha is swapped out to Jasmine-Node-Karma since google, and Mocha uses make and we don't really want to pollute our precious Windowsesses with gnuwin or MinGW or other such things. 
+Basis for the project is madhums awesome node-express-mongoose repository. Mocha is swapped out to Jasmine-Node-Karma since google, and Mocha uses make and we don't really want to pollute our windows with gnuwin or MinGW or other such things. 
 
 ## Frontend:
 Basis for the project is angular-seed made by dem Angular guys. I have swapped the folder structure around a little bit and made it work in harmony with jade files provided by our Node server.
